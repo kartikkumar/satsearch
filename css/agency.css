@@ -14,7 +14,7 @@ body {
 }
 
 .text-primary {
-    color: #fed136;
+    color: #4D4D4D;
 }
 
 p {
@@ -35,7 +35,7 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    color: #4D4D4D;
 }
 
 a:hover,
@@ -69,12 +69,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #fed136;
+    border-color: #4D4D4D;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #4D4D4D;
 }
 
 .btn-primary:hover,
@@ -108,25 +108,25 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #4D4D4D;
+    background-color: #4D4D4D;
 }
 
 .btn-primary .badge {
-    color: #fed136;
+    color: #4D4D4D;
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #fed136;
+    border-color: #4D4D4D;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #4D4D4D;
 }
 
 .btn-xl:hover,
@@ -160,12 +160,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #4D4D4D;
+    background-color: #4D4D4D;
 }
 
 .btn-xl .badge {
-    color: #fed136;
+    color: #4D4D4D;
     background-color: #fff;
 }
 
@@ -175,8 +175,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #fed136;
+    font-family: "Helvetica Neue",Helvetica,Arial,cursive;
+    color: #ffffff;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -191,8 +191,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #4D4D4D;
+    background-color: #4D4D4D;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -201,7 +201,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #fed136;
+    background-color: #4D4D4D;
 }
 
 .navbar-default .nav li a {
@@ -215,13 +215,13 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #fed136;
+    color: #4D4D4D;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #fed136;
+    background-color: #4D4D4D;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
@@ -262,28 +262,25 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-    text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
-    background-position: center center;
-    background-repeat: none;
+    background: url(../img/background.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    background-size: 100%;
 }
 
 header .intro-text {
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
-    font-style: italic;
     line-height: 22px;
 }
 
@@ -298,25 +295,25 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 250px;
         padding-bottom: 200px;
     }
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 40px;
-        font-style: italic;
+        text-transform: uppercase;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 28px;
         line-height: 40px;
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
+        margin-bottom: 40px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
-        font-weight: 700;
-        line-height: 75px;
+        font-size: 50px;
+        font-weight: 100;
+        line-height: 20px;
     }
 }
 
@@ -493,7 +490,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #fed136;
+    background-color: #4D4D4D;
 }
 
 .timeline>li .timeline-image h4 {
@@ -680,7 +677,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #fed136;
+    border-color: #4D4D4D;
     box-shadow: none;
 }
 
@@ -758,7 +755,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #fed136;
+    background-color: #4D4D4D;
 }
 
 .btn:focus,
@@ -846,12 +843,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fed136;
+    background: red;
 }
 
 ::selection {
     text-shadow: none;
-    background: #fed136;
+    background: red;
 }
 
 img::selection {
@@ -863,5 +860,39 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #fed136;
+    webkit-tap-highlight-color: #4D4D4D;
+}
+
+.satsearch-grey {
+    color: gray;
+}
+
+.satsearch-white {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: white;
+}
+
+.signup {
+    height: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.signup-btn-padding {
+    padding-left: 0px;
+}
+
+.signup-field-padding {
+    padding-right: 0px;
+}
+
+.signup-btn {
+    color: #eaeaea;
+}
+
+.call-to-action {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: uppercase;
+    font-size: 20px;
+    text-transform: none;
 }
