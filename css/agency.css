@@ -263,13 +263,13 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     color: #fff;
+    background-color: #000;
     background-attachment: scroll;
     background: url(../img/background.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    background-size: 100%;
 }
 
 header .intro-text {
@@ -293,10 +293,20 @@ header .intro-text .intro-heading {
     line-height: 50px;
 }
 
+header .intro-text .intro-description {
+    margin-bottom: 25px;
+    text-transform: normal;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 50px;
+}
+
+
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 200px;
-        padding-bottom: 200px;
+        padding-bottom: 5px;
     }
 
     header .intro-text .intro-lead-in {
@@ -314,6 +324,15 @@ header .intro-text .intro-heading {
         font-size: 50px;
         font-weight: 100;
         line-height: 20px;
+    }
+
+    header .intro-text .intro-description {
+        margin-bottom: 25px;
+        text-transform: normal;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 20px;
+        font-weight: 100;
+        line-height: 50px;
     }
 }
 
@@ -875,7 +894,7 @@ body {
 .signup {
     height: 50px;
     margin-top: 25px;
-    margin-bottom: 125px;
+    margin-bottom: 395px;
 }
 
 .call-to-action {
