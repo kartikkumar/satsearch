@@ -234,7 +234,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: transparent;
+        background-color: #000;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -253,7 +253,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #000;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -329,10 +329,10 @@ header .intro-text .intro-description {
     header .intro-text .intro-description {
         margin-bottom: 25px;
         text-transform: normal;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 20px;
-        font-weight: 100;
-        line-height: 50px;
+        font-weight: 10;
+        line-height: 30px;
     }
 }
 
@@ -902,4 +902,37 @@ body {
     font-weight: uppercase;
     font-size: 20px;
     text-transform: none;
+}
+
+.privacy {
+    color: #fff;
+    background-color: #000;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.privacy .privacy-text {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #fff;
+}
+
+.privacy-heading {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: normal;
+    color: #fff;
+    font-size: 16px;
+    line-height: 2px;
+}
+
+footer {
+    background-color: #000;
+}
+/*
+a:link .privacy-link {
+    color: #fff;
+}*/
+
 }
